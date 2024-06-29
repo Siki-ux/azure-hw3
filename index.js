@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 const account = 'hw3ac';
 const accountKey = 'MT0siz+YTGDb0QiXfFiN4DnbaXSmLVuu+8BoaMTic6USKDfFc0zQfA/Q79qXnmqGDvNAQL8phcna+AStlFTXyw==';
-const queueName = 'measurements-queue';
+const queueName = 'meas-queue';
 
 const queueServiceClient = new QueueServiceClient(
   `https://${account}.queue.core.windows.net`,
