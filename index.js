@@ -3,8 +3,8 @@ const { QueueServiceClient, StorageSharedKeyCredential } = require('@azure/stora
 const app = express();
 const port = process.env.PORT || 3000;
 
-const account = 'hw3ac';
-const accountKey = 'MT0siz+YTGDb0QiXfFiN4DnbaXSmLVuu+8BoaMTic6USKDfFc0zQfA/Q79qXnmqGDvNAQL8phcna+AStlFTXyw==';
+const account = 'pa200hw3adde';
+const accountKey = 'o7LQowJgwMtPpwU/H/6cVQrVLF611NQ99rG8nzUdb3LXsAD/DENi1P2jmG0ca/KlkKvS4tgjTeMG+ASt7cb6ag==';
 const queueName = 'meas-queue';
 
 const queueServiceClient = new QueueServiceClient(
